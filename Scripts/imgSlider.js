@@ -233,6 +233,20 @@ let projectOracleImages = [
     
 ];
 
+let ParcAutoImages = [
+    "./images/project captures/ParcAuto/login.png",
+    "./images/project captures/ParcAuto/configurationOTP.png",
+    "./images/project captures/ParcAuto/linterfacedentrerdeOTP.png",
+    "./images/project captures/ParcAuto/dashboard-reservation-graphiques.png",
+    "./images/project captures/ParcAuto/dashboard-ressources-consommations.png",
+    "./images/project captures/ParcAuto/Gestiondesmissionavenir.png",
+    "./images/project captures/ParcAuto/detailsdelamission.png",
+    "./images/project captures/ParcAuto/dashbord1vehicule.png",
+    "./images/project captures/ParcAuto/dashbord1inicdent.png",
+    "./images/project captures/ParcAuto/dashbord2inicdent.png",
+    "./images/project captures/ParcAuto/gestionderemboursement.png"
+];
+
 let NextjsWasteMgmtPlatformImages = [
     "./images/project captures/WasteR&M/collect.png",
     "./images/project captures/WasteR&M/home.png",
@@ -269,6 +283,9 @@ initializeSlider2(projectgraylogImages, projectLogServerProjectContainer);
 
 const projectNextjsWasteMgmtPlatformSliderContainer = document.querySelector('#NextjsWasteMgmtPlatform .img_slider');
 initializeSlider2(NextjsWasteMgmtPlatformImages, projectNextjsWasteMgmtPlatformSliderContainer);
+
+const projectParcAutoSliderContainer = document.querySelector('#ParcAutoProject .img_slider');
+initializeSlider2(ParcAutoImages, projectParcAutoSliderContainer);
 
 const projectCNCMonitoringSystemSliderContainer = document.querySelector('#CNCMonitoringSystem .img_slider');
 initializeSlider2(CNCMonitoringSystemImages, projectCNCMonitoringSystemSliderContainer);
